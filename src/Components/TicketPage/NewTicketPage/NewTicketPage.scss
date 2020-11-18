@@ -1,0 +1,41 @@
+.add-ticket-button{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color:rgb(176, 200, 248);
+    color:#fff;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    margin: 10px auto;
+    outline: 0;
+    cursor: pointer;
+}
+.add-ticket-button:hover{
+    background-color: rgb(126, 150, 200);
+}
+.title-inp{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid rgb(176, 200, 248);
+    margin: 0 auto;
+    outline: 0;
+    text-align: center;
+}
+.title-inp:hover, .title-inp:focus{
+    border:1px solid #7DB32E;
+}
+.new-ticket-form{
+    display: flex;
+    flex-direction: column;
+}
+.close-btn{
+    background-color:rgb(176, 200, 248);
+    border: none;
+}
+.close-btn:hover{
+    background-color: rgb(126, 150, 200);
+}

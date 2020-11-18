@@ -1,0 +1,53 @@
+.add-ticket-button {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  background-color: #b0c8f8;
+  color: #fff;
+  border: none;
+  display: block;
+  border-radius: 5px;
+  margin: 10px auto;
+  outline: 0;
+  cursor: pointer;
+}
+
+.add-ticket-button:hover {
+  background-color: #7e96c8;
+}
+
+.title-inp {
+  height: 30px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid #b0c8f8;
+  margin: 0 auto;
+  outline: 0;
+  text-align: center;
+}
+
+.title-inp:hover, .title-inp:focus {
+  border: 1px solid #7DB32E;
+}
+
+.new-ticket-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.close-btn {
+  background-color: #b0c8f8;
+  border: none;
+}
+
+.close-btn:hover {
+  background-color: #7e96c8;
+}
+/*# sourceMappingURL=NewTicketPage.css.map */

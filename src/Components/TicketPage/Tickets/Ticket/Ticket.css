@@ -1,0 +1,117 @@
+.ticket-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px auto;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.ticket-container .restore-button {
+  width: 25px;
+  cursor: pointer;
+}
+
+.ticket-container p {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 0 10px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.ticket-container #atDate {
+  font-size: 80%;
+}
+
+.ticket-container .update-pen {
+  width: 25px;
+  cursor: pointer;
+}
+
+.ticket-container .delete-btn {
+  padding: 0 5px;
+  background-color: rgba(255, 0, 0, 0);
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ticket-container .delete-btn img {
+  width: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.ticket-container .update-input {
+  border-radius: 2px;
+  border: 1px solid black;
+  width: 40%;
+  margin: 0 0 0 10px;
+  outline: 0;
+  padding-left: 5px;
+}
+
+.ticket-container .update-input:focus {
+  border: 1px solid #7DB32E;
+}
+
+.ticket-container .save-btn {
+  padding: 5px 10px;
+  background-color: #7DB32E;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  outline: 0;
+}
+
+.ticket-container .save-btn:active {
+  background-color: #00c800;
+}
+
+.ticket-container .username {
+  font-style: italic;
+  font-size: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ticket-container .assign-user-container {
+  width: 40%;
+}
+
+.ticket-container .assign-user-container .css-2b097c-container {
+  width: 100%;
+}
+
+.ticket-container .assign-user-container .css-2b097c-container .css-1egbayt-menu {
+  padding: 0;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+/*# sourceMappingURL=Ticket.css.map */

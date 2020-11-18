@@ -1,0 +1,12 @@
+#add-ticket-btn {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #b0c8f8;
+  border-color: #b0c8f8;
+}
+
+#add-ticket-btn:hover {
+  background-color: #7e96c8;
+}
+/*# sourceMappingURL=ShowModalTicket.css.map */

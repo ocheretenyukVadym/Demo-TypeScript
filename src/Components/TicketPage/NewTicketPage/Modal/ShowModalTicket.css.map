@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,OAAO,EAAE,KAAK;EACd,KAAK,EAAC,GAAG;EACT,MAAM,EAAE,SAAS;EACjB,gBAAgB,EAAC,OAAkB;EACnC,YAAY,EAAE,OAAkB;CACnC;;AACD,AAAA,eAAe,AAAA,MAAM,CAAA;EACjB,gBAAgB,EAAC,OAAkB;CACtC",
+    "sources": [
+        "ShowModalTicket.scss"
+    ],
+    "names": [],
+    "file": "ShowModalTicket.css"
+}

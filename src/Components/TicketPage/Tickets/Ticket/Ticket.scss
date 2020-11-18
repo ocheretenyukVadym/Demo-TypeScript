@@ -1,0 +1,91 @@
+.ticket-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color: #fff;
+  
+    .restore-button{
+        width: 25px;
+        cursor: pointer;
+    }
+    p{
+        position: relative;
+        flex: 1 1 25%;
+        flex-wrap: wrap;
+        margin: 0 0 0 10px;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+    #atDate{
+        font-size: 80%;
+    }
+
+    .update-pen{
+        width: 25px;
+        cursor: pointer;
+    }
+    .delete-btn{
+        padding: 0 5px;
+        background-color: rgba(255,0,0,0);
+        border: 0;
+        border-radius: 2px;
+        cursor: pointer;
+        outline: 0;
+        display: flex;
+        align-items: center;
+    }
+    .delete-btn img{
+        width:25px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .update-input{
+        border-radius: 2px;
+        border: 1px solid black;
+        width: 40%;
+        margin: 0 0 0 10px;
+        outline: 0;
+        padding-left: 5px;
+    }
+    .update-input:focus{
+        border: 1px solid #7DB32E;
+    }
+    
+    .save-btn{
+        padding: 5px 10px;
+        background-color: #7DB32E;
+        border: 0;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        outline: 0;
+    }
+    .save-btn:active{
+        background-color: rgba(0, 200, 0,1);
+    }
+    .username{
+        font-style: italic;
+        font-size: 20px;
+        user-select: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    .assign-user-container{
+        width:40%;
+        .css-2b097c-container{
+            width:100%;
+            
+            .css-1egbayt-menu{
+                padding: 0;
+                overflow: hidden;
+                word-wrap: break-word;
+            }
+        }
+    }
+}
